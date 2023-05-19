@@ -36,7 +36,11 @@
             <h3>La produccion musical es el proceso de crear, grabar y manipular el sonido para crear composiciones
                 musicales. <br>
                 Incluye varias tecnicas y herramientas que te permiten capturar, arreglar y mezclar pistas de audio
-                para asi poder crear piezas musicales que sigan transformando nuestra cultura.
+                para asi poder crear piezas musicales que sigan transformando nuestra cultura. <br>
+                La producción musical, como la conocemos en la actualidad, ha crecido como una disciplina estrechamente
+                ligada al avance de las tecnologías de grabación y reproducción de sonido. La evolución misma de estas
+                áreas ha ocasionado diversas modificaciones en el proceso de producción, convirtiéndolo en un aspecto
+                fundamental para la creación de buena música y proyectos sonoros.
             </h3>
             <h3>No importa si eres un musico, productor o solo un aficionado, explorar el mundo de la produccion musical
                 te mostrara una cantidad inmensa de posibilidades para mejorar tu creatividad y tu expresion artistica.
@@ -54,24 +58,36 @@
                 allowfullscreen></iframe>
         </div>
 
-        <div id="popup-message" class="popup">
-            <span class="close-btn" onclick="closePopup()">&times;</span>
-            <h2>Suscribete a nuestro Newsletter!</h2>
-            <p>Mantente informado sobre los mas recientes avances en la produccion musical.</p>
-            <input type="email" placeholder="Ingresa tu correo electronico" id="email-input">
-            <button onclick="subscribe()">Suscribir</button>
+        <div id="popup-container" class="popup-container">
+            <div class="popup">
+                <span class="close-btn">&times;</span>
+                <h2>Suscribete a nuestro Newsletter</h2>
+                <p>Mantente informados sobre las nuevas noticias de la produccion musical!.</p>
+                <form id="newsletter-form" class="form-container" method="post" action="gua.php">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" maxlength="50" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Subscribe">
+                    </div>
+                </form>
+            </div>
         </div>
 
-        <script src="js/news.js"></script>
 
+        <? php 
+            include("gua.php")
+        ?>
+
+        <script src="js/script.js"></script>
     </body>
 
     <footer class="footer">
         <ul>
-            <li><a href="#" target="_blank">Facebook</a></li>
-            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="https://www.facebook.com/PMUACJ" target="_blank">Facebook</a></li>
             <li><a href="#" target="_blank">Instagram</a></li>
-            <li><a href="#" target="_blank">YouTube</a></li>
+            <li><a href="https://www.youtube.com/results?search_query=musictechhelpguy" target="_blank">YouTube</a></li>
         </ul>
         <div class="qr-code">
             <img src="imagenes/qr.png" alt="QR Code">
