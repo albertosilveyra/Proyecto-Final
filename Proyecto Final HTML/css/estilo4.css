@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url(/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(/fonts/RobotoCondensed-Regular.ttf);
+}
+
+*{
+  font-family: "Roboto";
+}
+
+h1{
+  font-family: Oswald, sans-serif;
+}
+
+.navbar {
+  background-color: #0e0e0e;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.navbar li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar li a:hover {
+  background-color: #666666;
+}
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 1.25rem;
+    background-color: black;
+  }
+  
+  h1 {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .equipment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    color: whitesmoke;
+  }
+  
+  .equipment img {
+    width: 12.5rem;
+    height: auto;
+    margin-right: 1.25rem;
+  }
+  
+  .equipment-details {
+    flex: 1;
+    color: whitesmoke;
+  }
+  
+  .equipment-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.625rem;
+  }
+  
+  .equipment-brand {
+    font-style: italic;
+    margin-bottom: 0.625rem;
+  }
+  
+  .equipment-price {
+    margin-bottom: 0.625rem;
+  }
+  
+  .equipment-description {
+    margin-bottom: 0.625rem;
+  }
+  
+  .footer {
+    background-color: #0e0e0e;
+    padding: 1.25rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  .footer li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .footer li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0.3125rem;
+  }
+  
+  .qr-code {
+    display: inline-block;
+    margin-left: 0.625rem;
+    vertical-align: middle;
+  }
+  
+  .qr-code img {
+    width: 5vw;
+    height: 5vw;
+  }
+  
+  /* Responsive Media Queries */
+  
+  @media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    body {
+      margin: 0.625rem;
+    }
+  
+    .container {
+      justify-content: flex-start;
+    }
+  
+    .content {
+      margin: 0.625rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Adjustments for mobile screens */
+    .equipment {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
+  
+    .equipment img {
+      width: 100%;
+      margin-bottom: 0.625rem;
+    }
+  
+    .equipment-details {
+      width: 100%;
+    }
+  
+    .footer li a {
+      font-size: 1.5rem;
+    }
+  
+    .qr-code img {
+      width: 10vw;
+      height: 10vw;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    /* Adjustments for smartphones */
+    .navbar li {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 0.625rem;
+    }
+  
+    .navbar ul {
+      justify-content: flex-start;
+    }
+}
+   
+  

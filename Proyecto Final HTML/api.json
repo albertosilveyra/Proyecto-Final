@@ -1,0 +1,45 @@
+[
+    {
+      "name": "MIDI Controller Keyboard",
+      "brand": "Novation",
+      "price": "$249",
+      "image": "imagenes/novation.jpg",
+      "description": "A versatile MIDI controller keyboard with 49 keys, ideal for music production and live performance."
+    },
+    {
+      "name": "MIDI Drum Pad",
+      "brand": "Akai Professional",
+      "price": "$149",
+      "image": "imagenes/drumpad.png",
+      "description": "A compact MIDI drum pad with velocity-sensitive pads and assignable controls, perfect for beat-making and triggering samples."
+    },
+    {
+      "name": "Seaboard Rise 2",
+      "brand": "Roli",
+      "price": "$1,400",
+      "image": "imagenes/roli.jpg",
+      "description": "A keyboard designed for limitless exploration of sound. Re-engineered from the multi-award-winning original to be more intuitive and powerful than ever before, RISE 2 is the new pinnacle of musical expression."
+    },
+    {
+      "name": "MIDI Keyboard Controller",
+      "brand": "Arturia",
+      "price": "$399",
+      "image": "imagenes/arturia.png",
+      "description": "A professional-grade MIDI keyboard controller with aftertouch and extensive control options for expressive playing and precise parameter manipulation."
+    },
+    {
+      "name": "MIDI Pad Controller",
+      "brand": "Native Instruments",
+      "price": "$199",
+      "image": "imagenes/native.jpg",
+      "description": "An intuitive MIDI pad controller with backlit RGB pads and touch-sensitive controls, designed for hands-on beat production and performance."
+    },
+    {
+      "name": "MIDI Foot Controller",
+      "brand": "Behringer",
+      "price": "$79",
+      "image": "imagenes/behringer.png",
+      "description": "A compact MIDI foot controller with programmable switches and expression pedal inputs, suitable for controlling effects, switching presets, and more."
+    }
+  ]
+  

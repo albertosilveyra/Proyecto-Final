@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url(/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(/fonts/RobotoCondensed-Regular.ttf);
+}
+
+*{
+  font-family: "Roboto";
+}
+
+.navbar {
+  background-color: #0e0e0e;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.navbar li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar li a:hover {
+  background-color: #666666;
+}
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 1.25rem;
+    background-color: black;
+  }
+  
+  h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: Oswald, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .content {
+    max-width: 50rem;
+    margin: 1.25rem;
+    color: white;
+  }
+  
+  .content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content h2 {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .content p {
+    margin-bottom: 1.25rem;
+    color: white;
+  }
+  
+  .footer {
+    background-color: #0e0e0e;
+    padding: 1.25rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  .footer li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .footer li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0.3125rem;
+  }
+  
+  .qr-code {
+    display: inline-block;
+    margin-left: 0.625rem;
+    vertical-align: middle;
+  }
+  
+  .qr-code img {
+    width: 5vw;
+    height: 5vw;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .content {
+      margin: 1rem;
+    }
+  }
+  
