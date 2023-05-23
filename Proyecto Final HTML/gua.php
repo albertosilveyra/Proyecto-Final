@@ -4,36 +4,23 @@
     
 
    
-    $email = $_POST['email'];
+    $Email = $_POST['Correo'];
 
 
     $Fecha= date("Y-m-d H:i:s");
     
-    if (isset($_POST['email'])){
-        if (strlen($_POST['email']) >= 1) {
-            $email = trim($_POST['email']);
-            $consulta = "INSERT INTO Proyecto(Correo, Fecha) VALUES ('$email', '$Fecha'";
-    
-            $resultado = mysqli_query($conexion, $consulta);
-    
-            if($resultado){
-                ?< 
-                    <h3>Te Has inscrito correctamente</h3>
-                <?php
-            }  else{
-                ?< 
-                    <h3>Ha ocurrido un error</h3>
-                <?php
+   
+    $consulta = "INSERT INTO Proyecto(Correo, Fecha) VALUES ('$Email', '$Fecha')";
 
-            }
-            else{
-                ?< 
-                <h3>Por favor complete los cambiso</h3>
-            <?php
-            }
-    
-        }
+    if ($conexion->query($consulta) === TRUE){
+        header("Location: index.html");
+    } else{
+        echo "Error: " . $consulta . "<br>". $conexion->error;
     }
+
+    $conexion->close();
+
+            
    
    
 ?>

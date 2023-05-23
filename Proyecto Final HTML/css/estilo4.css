@@ -16,47 +16,46 @@ h1{
   font-family: Oswald, sans-serif;
 }
 
-.navbar {
-  background-color: #0e0e0e;
-  padding: 1rem;
-  text-align: center;
-  position: sticky;
-  top: 0;
-}
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.navbar li {
-  display: inline-block;
-  margin-right: 1rem;
-}
-
-.navbar li a {
-  color: #ffffff;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-}
-
-.navbar li a:hover {
-  background-color: #666666;
-}
+ .navbar {
+    background: #424C55;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .navbar li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar li a:hover {
+    background-color: #886F68;
+  }
 
   
   body {
-    font-family: Arial, sans-serif;
     margin: 1.25rem;
-    background-color: black;
+    background-color: #f5edf0;
   }
   
   h1 {
     text-align: center;
-    color: whitesmoke;
+    color: #3D2C2E;
   }
   
   .equipment {
@@ -74,7 +73,7 @@ h1{
   
   .equipment-details {
     flex: 1;
-    color: whitesmoke;
+    color: #3D2C2E;
   }
   
   .equipment-name {
@@ -96,42 +95,42 @@ h1{
     margin-bottom: 0.625rem;
   }
   
-  .footer {
-    background-color: #0e0e0e;
-    padding: 1.25rem;
+.footer {
+    background-color: #424C55;
+    padding: 20px;
     color: #ffffff;
     text-align: center;
-  }
-  
-  .footer ul {
+}
+
+.footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: inline-block;
-  }
-  
-  .footer li {
+}
+
+.footer li {
     display: inline-block;
     margin-right: 1rem;
-  }
-  
-  .footer li a {
+}
+
+.footer li a {
     color: #ffffff;
     text-decoration: none;
     font-size: 2rem;
-    padding: 0.3125rem;
-  }
-  
-  .qr-code {
+    padding: 5px;
+}
+
+.qr-code {
     display: inline-block;
-    margin-left: 0.625rem;
+    margin-left: 10px;
     vertical-align: middle;
-  }
-  
-  .qr-code img {
+}
+
+.qr-code img {
     width: 5vw;
     height: 5vw;
-  }
+}
   
   /* Responsive Media Queries */
   

@@ -12,7 +12,7 @@
 <header>
     <div class="navbar">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="historia.html">Evolucion</a></li>
             <li><a href="modular.html">Produccion Modular</a></li>
             <li><a href="equipo.html">Equipo</a></li>
@@ -58,29 +58,23 @@
                 allowfullscreen></iframe>
         </div>
 
-        <div id="popup-container" class="popup-container">
-            <div class="popup">
-                <span class="close-btn">&times;</span>
-                <h2>Suscribete a nuestro Newsletter</h2>
-                <p>Mantente informados sobre las nuevas noticias de la produccion musical!.</p>
-                <form id="newsletter-form" class="form-container" method="post" action="gua.php">
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" maxlength="50" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" value="Subscribe">
-                    </div>
-                </form>
-            </div>
-        </div>
+     
+
+    <form id="newsletter-form" class="form-container" action="gua.php" method="POST" runat="server">
+      <input type="text" id="email" name="email" placeholder="Your email address" required>
+      <button type="submit">Subscribe</button>
+    </form>
+    
+    <h3>Paleta de Colores</h3>
+    <img id="paleta" src="imagenes/paleta.png" width="30%">
+
+  </div>
+</div>
 
 
-        <? php 
-            include("gua.php")
-        ?>
 
-        <script src="js/script.js"></script>
+        
+
     </body>
 
     <footer class="footer">
@@ -90,11 +84,11 @@
             <li><a href="https://www.youtube.com/results?search_query=musictechhelpguy" target="_blank">YouTube</a></li>
         </ul>
         <div class="qr-code">
-            <img src="imagenes/qr.png" alt="QR Code">
+            <img src="imagenes/qr.jpeg" alt="QR Code">
         </div>
 
         <h4>Alberto Silveyra 217767</h4>
-        <h4>Todos los derechos Reservados.</h4>
+        <h4>Todos los derechos Reservados. 2023.</h4>
     </footer>
 
 </html>

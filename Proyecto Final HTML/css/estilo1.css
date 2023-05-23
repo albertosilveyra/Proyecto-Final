@@ -11,9 +11,9 @@
 *{
     font-family: "Roboto";
 }
-  
+ 
  .navbar {
-    background-color: #0e0e0e;
+    background: #424C55;
     padding: 1rem;
     text-align: center;
     position: sticky;
@@ -40,11 +40,11 @@
   }
   
   .navbar li a:hover {
-    background-color: #666666;
+    background-color: #886F68;
   }
 
 #carrusel {
-    background-color: #000;
+    background-color: #3D2C2E;
     padding: 1rem;
 }
 
@@ -123,10 +123,9 @@ ul.slider li img {
 }
 
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 2rem;
-    background-color: black;
+    background: #F5EDF0;
 }
 
 .intro {
@@ -134,12 +133,12 @@ body {
 }
 
 .intro h1 {
-    color: whitesmoke;
+    color: #3D2C2E;
     font-family: Oswald, sans-serif;
 }
 
 .intro h3 {
-    color: white;
+    color: #3D2C2E;
     margin-bottom: 2rem;
 }
 
@@ -243,7 +242,7 @@ input[type="submit"]:hover {
 
 
 .footer {
-    background-color: #0e0e0e;
+    background-color: #424C55;
     padding: 20px;
     color: #ffffff;
     text-align: center;
@@ -280,7 +279,7 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 768px) {
-    /* Adjust navbar styles for smaller screens */
+   
     .navbar ul {
       flex-wrap: wrap;
     }
@@ -304,7 +303,6 @@ input[type="submit"]:hover {
 }
   
   @media (max-width: 600px) {
-    /* Adjust slider and popup styles for smaller screens */
     ul.slider {
       width: 100%;
     }
@@ -319,7 +317,7 @@ input[type="submit"]:hover {
   }
   
   @media (max-width: 480px) {
-    /* Adjust font sizes and QR code dimensions for smaller screens */
+
     .footer li a {
       font-size: 1.5rem;
     }
